@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game | Abd Al-Rahman</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="control-buttons">
+      <span>Start Game</span>
+    </div>
+    <div class="info-container">
+      <div class="name">Hello: <span></span></div>
+      <div class="tries">Wrong Tries : <span>0</span></div>
+    </div>
+
+    <div class="memory-game-blocks">
+      <div class="game-block" data-technology="cpp">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/cpp.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="cpp">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/cpp.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="vuejs">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/vuejs.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="vuejs">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/vuejs.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="css3">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/css3.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="css3">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/css3.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="php">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/php.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="php">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/php.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="typescript">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/typescript.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="typescript">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/typescript.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="html5">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/html5.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="html5">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/html5.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="sass">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/sass.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="sass">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/sass.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="python">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/python.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="python">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/python.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="javascript">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/javascript.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="javascript">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/javascript.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="nextjs">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/nextjs.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="nextjs">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/nextjs.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="my-container">
+      <svg viewBox="0 0 960 300">
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="80%">Abd Al-Rahman</text>
+        </symbol>
+
+        <g class="g-ants">
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+        </g>
+      </svg>
+    </div>
+    <audio id="success" src="audio/success.mp3" preload="auto"></audio>
+    <audio id="fail" src="audio/fail.mp3" preload="auto"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>
+<!-- <div class="my-container">
+  <svg viewBox="0 0 960 300">
+    <symbol id="s-text">
+      <text text-anchor="middle" x="50%" y="80%">Montserrat</text>
+    </symbol>
+
+    <g class = "g-ants">
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+    </g>
+  </svg>
+</div> -->
